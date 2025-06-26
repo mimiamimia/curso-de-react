@@ -1,0 +1,106 @@
+*{
+  background-color: #566573;
+}
+
+.gerenciador{
+  display: flex;
+  justify-content: center;
+
+  .gerenciador-container{
+    width: 500px;
+  }
+}
+
+.title{
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  background-color: #d6dbdf;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: black;
+    li{
+      display: flex;
+      list-style: none;
+      border-radius: 10px;
+      background-color: #d6dbdf;
+
+      .task{
+        padding: 1rem;
+        margin: 1rem 0 1rem 1rem;
+        width: 100%;
+        color: white;
+        border: none;
+        text-align: left;
+        font-size: 1rem;
+        border-radius: 10px;
+        background-color: #808b96;
+
+        .check{
+        margin: -5px 5px -5px -5px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: #808b96;
+      }
+      }
+
+      
+
+      .icon{
+        margin: 14px 8px 1rem 1rem;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: #808b96;
+
+        .seta{
+          background-color: #808b96;
+          width: 40px;
+        }
+
+      }
+
+    }
+}
+
+.add{
+  background-color: #d6dbdf;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: black;
+  display: list-item;
+  list-style: none;
+
+  input{
+    
+    margin: 0 0 18px 0;
+    padding: 0.7rem;
+    width: 95%;
+    background-color: white;
+    color: grey;
+    border-radius: 10px;
+    border-color: #566573;
+    outline: none;
+  }
+
+  .botão{
+    margin: 0 0 18px 0;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+  }
+}
+
+.txt{
+  background-color: #d6dbdf;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
